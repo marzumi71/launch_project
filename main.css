@@ -1,9 +1,76 @@
-.demo-content{
-padding: 15px 15px 200px;
-font-size: 18px;
-background: #dbdfe5;
+html{ 
+	scroll-behavior:smooth;
 }
-.demo-content.bg-alt{
- background: #000;
- color:#fff;
+
+/*This adds space to the top to accomodate the fixed navigation bar*/
+body{
+  padding-top:50px;
+  padding-bottom:400px;
 }
+
+.full_width_header{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e570e7+0,c85ec7+47,a849a3+100;Pink+3D+%233 */
+background: #e570e7; /* Old browsers */
+background: -moz-linear-gradient(top, #e570e7 0%, #c85ec7 47%, #a849a3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=0 ); /* IE6-9 */
+  padding-bottom:100px;
+}
+
+.jumbotron{
+  background-color:transparent;
+  padding-top:100px;
+}
+
+.jumbotron p{
+  color:#f1f1f1;
+  font-size-adjust:100px;
+}
+.caps{
+	text-transform:uppercase;
+}
+.more_padding{
+  padding:100px 0;
+}
+div{
+font-family: 'Roboto Mono', monospace;
+}
+.background_black{
+  background:#000;
+}
+.white_text{
+	color:white;
+}
+.bottom_padding{
+	padding-bottom: 100px;
+}
+.top_padding{
+	padding-top: 100px;
+}
+.btn,.btn-primary{
+	background: black;
+	border-color:white;
+}
+.btn-primary:hover{
+	background:#9069C7;
+		border-color:white;
+}
+.background_pink{
+background: #e570e7; /* Old browsers */
+background: -moz-linear-gradient(top, #e570e7 0%, #c85ec7 47%, #a849a3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e570e7 0%,#c85ec7 47%,#a849a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#a849a3',GradientType=0 ); /* IE6-9*/
+}
+
+.carousel_small{
+	max-width:400px;
+	margin:0 auto;
+}
+.logo{
+	max-width:300px;
+}
+@media
+
+/*<img src="img/logo.png" class="logo">*/
